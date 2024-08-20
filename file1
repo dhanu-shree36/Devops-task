@@ -1,0 +1,29 @@
+ 1  yum install git -y
+    2  git --version
+    3  which git
+    4  mkdir mygit
+    5  cd mygit
+    6  git init
+    7  cat > myfile
+    8  ls
+    9  cat myfile
+   10  git status
+   11  git add myfile
+   12  git status
+   13  git commit -m "This is devops task1"
+   14  git status
+   15  git commit -m "This is devops task1"
+   16  git log
+   17  git status
+   18  git branch
+   19  git branch staging
+   20  git branch
+   21  git chekout staging
+   22  git checkout staging
+   23  git branch
+   24  git log
+   25  vi myfile
+   26  git log
+   27  cat myfile
+   28  git remote add origin https://github.com/dhanu-shree36/Devops-task.git
+   29  git push origin staging
